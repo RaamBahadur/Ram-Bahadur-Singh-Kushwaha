@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="with=device-width, initial scale=1.0">
+        <title> Edu College </title>
+        <link rel="stylesheet" href="C:\Users\Asus\OneDrive\Desktop\it website\css.style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="C:\Users\Asus\OneDrive\Desktop\it project\index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"  onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html.html">Course</a></li>
+                        <li><a href="blog.html.html">Blog</a></li>
+                        <li><a href="contact.html.html">Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"  onclick="showMenu()"></i>
+
+            </nav>
+            <h1>About Us</h1>    
+            
+        </section>
+        <!---------- about us content------>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the largest college in Nepal</h1>
+            <p> We are among one of the few colleges that provides interantional degree in Nepal. It has been 14 Years since the college 
+                started.Almost 8000 students have graduated from this college so far and still around 500 students will be graduating
+                this year.We have every kind of infrastructure required for quality development of students.   </p>
+            <a href="" class="hero-btn red-btn">EXPORE NOW</a>
+        </div>
+    </div>
+    <div class="about-col">
+        <img src="images/about.jpg" alt="">
+    </div>
+</section>
+        
+        
+        
+        
+        
+        <!---------Footer ------->
+        
+        <section class="footer">
+            <h4>About us</h4>
+            <p> It is one of the prestigious college operated in Nepal.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                </div>
+            <p> Made  <i class="fa fa-heart-o"></i>by Ram Bahadur Singh Kushwaha</p>
+        </section>
+
+
+
+
+
+
+        <!------Javascript for toggle menu---->
+        <script>
+            
+            var navLinks = document.getElementById("navLinks")
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";}
+        </script>
+
+    </body>
+</html>
